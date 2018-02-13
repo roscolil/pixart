@@ -12,6 +12,7 @@ $("input").keypress(function() {
   $brushBox.css("background-color", $newBrushColor);
   });
 
+// Create 100 div elements
   $(document).ready(function () {
       var $newdiv;
       for (var i = 0; i < 100; i++) {
@@ -19,3 +20,8 @@ $("input").keypress(function() {
           $('body').append($newdiv);
       }
   });
+
+// Change div to green on click event **Not working properly**
+  $("body").on("click", function(event) {
+    var $div = $(event.target).css("background-color", "green");
+});
