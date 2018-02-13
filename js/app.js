@@ -12,7 +12,7 @@ $("input").keypress(function() {
   $brushBox.css("background-color", $newBrushColor);
   });
 
-// Create 100 div elements
+// Create 100 div elements. Should this be 10x10 or inline down the page?
   $(document).ready(function () {
       var $newdiv;
       for (var i = 0; i < 100; i++) {
@@ -21,7 +21,7 @@ $("input").keypress(function() {
       }
   });
 
-// Change div to green on click event **Not working properly**
+// Change div colors
   $("body").on("click", function(event) {
     var $newBrushColor = $('input').val();
     var $div = $(event.target).css("background-color", $newBrushColor);
