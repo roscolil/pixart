@@ -1,8 +1,12 @@
 .brush-box {
-  margin: 20px;
+  margin: 0 20px 20px 20px;
   height: 100px;
   width: 100px;
   border: solid 2px black;
+}
+
+label {
+  margin: 20px 0 0 20px;
 }
 
 input {
