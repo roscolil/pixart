@@ -1,0 +1,17 @@
+.brush-box {
+  margin: 20px;
+  height: 100px;
+  width: 100px;
+  border: solid 2px black;
+}
+
+input {
+  margin-left: 20px;
+  width: 200px;
+  height: 30px;
+}
+
+button {
+  width: 100px;
+  height: 30px;
+}
