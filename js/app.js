@@ -12,7 +12,7 @@ $("input").keypress(function() {
   $brushBox.css("background-color", $newBrushColor);
   });
 
-// Create 100 div elements. Should this be 10x10 or inline down the page?
+// Create 100 div elements. Should this be 10x10 or inline down the page? In which case i would try a nested for loop
   $(document).ready(function () {
       var $newdiv;
       for (var i = 0; i < 100; i++) {
