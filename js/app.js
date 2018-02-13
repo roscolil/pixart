@@ -23,5 +23,6 @@ $("input").keypress(function() {
 
 // Change div to green on click event **Not working properly**
   $("body").on("click", function(event) {
-    var $div = $(event.target).css("background-color", "green");
+    var $newBrushColor = $('input').val();
+    var $div = $(event.target).css("background-color", $newBrushColor);
 });
